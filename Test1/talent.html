@@ -1,0 +1,121 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>SaskManagement - State of the Art Model</title>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    
+    <style>
+        .banner-image{
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(Images/Saskatchewin.png);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+        }
+    </style>
+
+    <!-- navbar-->
+    <nav class="navbar fixed-top navbar-expand-md">
+        <div class="container-xxl">
+            <a href="index.html" class="navbar-brand">
+                <span class="fw-bold text-primary">
+                    <img src="Images/nelogo.png" alt="">
+                </span>
+            </a>
+            <!--toggle button fr mobile nav -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false"
+            aria-label="Toggle naviagtion">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!--navbar links-->
+            <div class="collapse navbar-collapse justify-content-end align-center" 
+            id="main-nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="talent.html">Talent</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="project.html">Project</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="coaches.html">Coaches</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="player.html">Players</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html"> Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+        <!-- Banner Image -->
+        <div class=" banner-image w-100 vh-100 d-flex justify-content-center align-items-center">
+            <div class="content text-center">
+                <h1 class="text-Dark"> SaskatcheWin</h1>
+            </div>
+        </div>
+
+        <div class="fluid-container-sm bg-light p-3">
+            <div class=" row justify-content-center p-5">
+                <div class=" card col-lg-4 text-center text-md-start p-5">
+                    <p class="col-12 text-center">
+                        SaskatcheWin is the grassroots of our talent development operations representing the main pillar of our strategy by laying out the foundations for SaskGoal United Premier-Center through recruitment and development of Canadian community-based soccer players in order to develop the Premier talent.
+                    </p>
+                    <p class="col-12 text-center">
+                        The development program we use is unique, innovative and goes beyond preparing traditional high-performance athletes. For us, talent development means:                </p>
+                    <p class="col-12 text-center">
+                        “To promote, cultivate, and consolidate player’s personal and community values through a process of creatively putting in practice non-measurable skills (e.g., emotional intelligence, negotiation, leadership) and other measurable skills (e.g., physical, technical) not only during team’s training practices or games but also in their daily lives”.
+                    </p>
+                    <p class="col-12 text-center">
+                        We take very seriously the trust that families put on us, and we will always do our best to transform young players into citizens that are prepared to give back and serve their communities.
+                    </p>
+                    <p class="col-md-12 text-center">
+                        Furthermore, SaskatcheWin join forces with SaskGoal United to implement the outreach projects developed by the Premier-Center.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    <div class="fluid-container bg-secondary">
+        <div class="col-lg-6 text-lg-start">
+            <p class="text-secondary"> hi </p>
+            <p class="text-secondary"> hi </p>
+            <p class="text-light">Copyright All Rights Reserved © 2019</p>
+        </div>
+    </div>
+
+    <script>
+        var nav = document.querySelector('nav');
+        nav.classList.add('bg-light');
+
+        window.addEventListener('scroll', function (){
+            if(window.pageYOffset > 100) {
+                nav.classList.add('bg-dark', 'shadow');
+
+                nav.classList.remove('bg-light');
+            } else{
+                nav.classList.remove('bg-dark', 'shadow');
+                nav.classList.add('bg-light');
+            }
+        });
+      </script>
+
+
+    
+</body>
+</html>

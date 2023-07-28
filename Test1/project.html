@@ -1,0 +1,138 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>SaskManagement - State of the Art Model</title>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    
+    <style>
+        .banner-image{
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(Images/Saslgoal.png);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+        }
+    </style>
+    
+    <!-- navbar-->
+    <nav class="navbar fixed-top navbar-expand-md">
+        <div class="container-xxl">
+            <a href="index.html" class="navbar-brand">
+                <span class="fw-bold text-primary">
+                    <img src="Images/nelogo.png" alt="">
+                </span>
+            </a>
+            <!--toggle button fr mobile nav -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false"
+            aria-label="Toggle naviagtion">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!--navbar links-->
+            <div class="collapse navbar-collapse justify-content-end align-center" 
+            id="main-nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="talent.html">Talent</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="project.html">Project</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="coaches.html">Coaches</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="player.html">Players</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html"> Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner Image -->
+    <div class=" banner-image w-100 vh-100 d-flex justify-content-center align-items-center">
+        <div class=" content text-center">
+            <h1 class="text-light"> Project</h1>
+        </div>
+    </div>
+
+    <div class="fluid-container bg-light p-5">
+        <h1 class="display5 text-primary text-center">
+            SASKGOAL UNITED PREMIER-SOCCER PROJECT
+        </h1>
+    </div>
+
+    <div class="fluid-container-sm bg-light p-3">
+        <div class=" row justify-content-center p-5">
+            <div class=" card col-lg-5 text-center text-md-start p-5">
+                <p class="col-12 text-center">
+                    “Top-Talent Development of Future Premier League and World Cup Soccer Players”
+                </p>
+                <p class="col-12">
+                    SaskGoal United will be responsible not only for the development of Premier talent, but also for the development of outreach projects that will have the input of the community to let them profit the most. Soccer is a powerful instrument that can unite, engage, teach youth financial discipline, among other skills.
+                <p class="col-12 text-primary">
+                    The future of youth soccer
+                </p>
+                <p class="col-12">
+                    We expect this project to be one of the most ambitious undertakings for the growth and development of youth soccer in Canada. In its initial stages, this project envisions a high-performance soccer center. Ultimately, the goal is to create Canada’s First Sport Village.
+                </p>
+                <p class="col-md-12">
+                    Due to the magnitude of this project and the social impact of it, SaskGoal United Premier-Soccer Project as a non-profit organization is developing a strategic plan to partner with other public and private organizations to join in this venture, which will revolutionize the Canadian soccer industry, putting Saskatchewan and Canada in the soccer map internationally.
+                </p>
+                <p class="col-md-12 text-center text-primary">
+                    SASKGOAL UNITED PREMIER-SOCCER PROJECT
+                </p>
+                <p class="col-md-12">
+                    Saskmanagement will take all the necessary steps to ensure the project becomes a reality. We are committed to partner with all members of the Saskatchewan and Canadian community. Together, we will play a major role in internationalizing Canadian soccer to aim for the 2026 World Cup and beyond. We foresee that by working together, Saskatchewan, in the next 10 years, can become the center of Canada’s multi-billion dollar industry.
+
+                </p>
+                <p class="col-md-12 text-primary">
+                    Premier-Soccer Model
+                </p>
+                <p class="col-md-12">
+                    The development model will not be the same as the traditional ones found in high-performance centers. Our model will follow a holistic approach which puts the young player’s physical, mental, social and emotional capabilities at the center of its development. A relative idea of this type of centers could be the one proposed by FIFA Youth Football Manual in 2017 (see the image below).
+                </p>
+                <img class="p-3" src="Images/strategy.png" alt="strategy img">
+            </div>
+        </div>
+    </div>
+
+    <div class="fluid-container bg-secondary">
+        <div class="col-lg-6 text-lg-start">
+            <p class="text-secondary"> hi </p>
+            <p class="text-secondary"> hi </p>
+            <p class="text-light">Copyright All Rights Reserved © 2019</p>
+        </div>
+      </div>
+
+    <script>
+    var nav = document.querySelector('nav');
+    nav.classList.add('bg-light');
+
+    window.addEventListener('scroll', function (){
+        if(window.pageYOffset > 100) {
+            nav.classList.add('bg-dark', 'shadow');
+
+            nav.classList.remove('bg-light');
+        } else{
+            nav.classList.remove('bg-dark', 'shadow');
+            nav.classList.add('bg-light');
+        }
+    });
+    </script>
+</body>
+</html>

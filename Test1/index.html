@@ -1,0 +1,138 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <title>SaskManagement - State of the Art Model</title>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <style>
+        .banner-image{
+            background-image: url(Images/bg-saskmanagment.jpg);
+            background-size: cover;
+        }
+    </style>
+    
+    <!-- navbar-->
+    <nav class="navbar fixed-top navbar-expand-md">
+        <div class="container-xxl">
+            <a href="index.html" class="navbar-brand">
+                <span class="fw-bold text-primary">
+                    <img src="Images/nelogo.png" alt="">
+                </span>
+            </a>
+            <!--toggle button fr mobile nav -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false"
+            aria-label="Toggle naviagtion">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!--navbar links-->
+            <div class="collapse navbar-collapse justify-content-end align-center" 
+            id="main-nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="talent.html">Talent</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="project.html">Project</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="coaches.html">Coaches</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="player.html">Players</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html"> Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Banner Image -->
+    <div class=" row banner-image w-100 vh-100 d-flex justify-content-center align-items-center">
+        <div class="fluid-container">
+            <div class="row justify-content-center p-5">
+                <div class="col-lg-6 text-center text-md-start">
+                    <h1 class=" display-2 text-light text-center">
+                        UEFA CONMEBOl</h2>
+                    <h1 class=" display-1 text-light text-center"> CHAMPIONS CLINCS </h2>
+                    <p class="lead my-2 text-light text-center"> Coming Soon to Saskatchewan & WC</p>
+                    <img class = "center"src="Images/qr-code.png" 
+                    width = "10%"
+                    heigth ="10%"
+                    alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+      <!-- Know How-->
+      <div class="container-xl" >
+        <div class="row justify-content-center p-5">
+          <div class="col-md-5 text-center text-md-start">
+              <h1 class="  display-5">Team And Know-How</h1>
+              <p class="lead my-2 text-muted"> We bring with us more than 30 years of international work experience and knowledge in the world of soccer. Our team is a group of professionals with the expertise to take young talent to “The Next Level”.
+                Our management team includes people who are educated and trained in business schools (Real Madrid Graduate School, EAE Business School) that have strong ties with European premier league academies. The same sports management programs chosen by figures like Mauricio Pochettino, Manager of Premier League club Tottenham Hotspur.
+                Among our technical staff, we have coaches who have assisted national youth soccer teams to participate in U17 – U20 World Cups. In addition, some have coached their teams to win South America National Championships. We also have coaches who have led major national teams to major Soccer World Cups.</p>
+                <a href="index.html" class=" btn btn-primary"> Learn More</a>
+          </div>
+          <div class="col-md-7 text-center">
+            <img src="Images/mp2.jpg" class="img-fluid" alt="...">
+          </div>
+        </div>
+      </div>
+
+      <div class="fluid-container bg-primary">
+        <div class="row justify-content-center p-5">
+            <div class="col-lg-6 text-center text-md-start">
+                <h2 class=" text-light text-center">
+                    PARTNER AND PROUD SPONSOR OF THE</h2>
+                <h2 class=" text-light text-center">
+                        “SASKGOAL UNITED PREMIER-SOCCER PROJECT”</h2>
+                <p class="lead my-2 text-light"> The SaskGoal United Premier-Soccer Project will be a unique model of soccer excellence that will prepare Canada’s future national and league soccer players.</p>
+                <p class="lead my-2 text-light"> In its initial stages, this project envisions a high-performance soccer center. Ultimately, the goal is to create Canada’s First Sport Village.</p>
+                <p class="lead my-2 text-light"> SaskManagement will be one of the key partners of the project, bringing knowledge and top-tier coaching expertise to create a “Pro Soccer Network”. This network will support the development of players, coaches and managers in order to achieve an elite level in the Premier Canadian Soccer League.</p>
+
+            </div>
+        </div>
+      </div>
+
+      <div class="fluid-container bg-secondary">
+        <div class="col-lg-6 text-lg-start">
+            <p class="text-secondary"> hi </p>
+            <p class="text-secondary"> hi </p>
+            <p class="text-light">Copyright All Rights Reserved © 2019</p>
+        </div>
+      </div>
+
+      <script>
+        var nav = document.querySelector('nav');
+        nav.classList.add('bg-light');
+
+        window.addEventListener('scroll', function (){
+            if(window.pageYOffset > 100) {
+                nav.classList.add('bg-dark', 'shadow');
+
+                nav.classList.remove('bg-light');
+            } else{
+                nav.classList.remove('bg-dark', 'shadow');
+                nav.classList.add('bg-light');
+            }
+        });
+      </script>
+
+</body>
+</html>
